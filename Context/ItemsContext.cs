@@ -87,7 +87,7 @@ namespace ShopContent_lekontsev.Context
             {
                 return new RelayCommand(obj =>
                 {
-                    MainWindow.init.frame.Navigate(new View.Add(this));
+                    MainWindow.init.frame.Navigate(new Viev.Add(this));
                 });
             }
         }
@@ -111,7 +111,7 @@ namespace ShopContent_lekontsev.Context
                 return new RelayCommand(obj =>
                 {
                     Delete();
-                    (MainWindow.init.Main.DataContext as ViewModell.VMItems).Items.Remove(this);
+                    (MainWindow.init.Main.DataContext as VievModell.VMItems).Items.Remove(this);
                 });
             }
         }
