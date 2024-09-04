@@ -94,5 +94,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Context\" />
+    <Folder Include="Modell\" />
+    <Folder Include="VievModell\" />
+    <Folder Include="Viev\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ic_item.png" />
+    <Resource Include="Images\ic_shop.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
