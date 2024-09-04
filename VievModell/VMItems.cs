@@ -21,7 +21,7 @@ namespace ShopContent_lekontsev.VievModell
                     Context.ItemsContext newModell = new Context.ItemsContext(true);
                     Items.Add(newModell);
 
-                    MainWindow.init.frame.Navigate(new View.Add(newModell));
+                    MainWindow.init.frame.Navigate(new Viev.Add(newModell));
                 });
             }
         }

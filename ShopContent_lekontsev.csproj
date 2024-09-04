@@ -66,6 +66,9 @@
     <Compile Include="Modell\Items.cs" />
     <Compile Include="VievModell\VMCategorys.cs" />
     <Compile Include="VievModell\VMItems.cs" />
+    <Compile Include="Viev\Add.xaml.cs">
+      <DependentUpon>Add.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Viev\Item\Item.xaml.cs">
       <DependentUpon>Item.xaml</DependentUpon>
     </Compile>
@@ -84,6 +87,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Viev\Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Viev\Item\Item.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
