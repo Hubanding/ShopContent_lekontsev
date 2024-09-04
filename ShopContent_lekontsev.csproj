@@ -60,6 +60,8 @@
     </ApplicationDefinition>
     <Compile Include="Classes\Connection.cs" />
     <Compile Include="Classes\RelayCommand.cs" />
+    <Compile Include="Modell\Categorys.cs" />
+    <Compile Include="Modell\Items.cs" />
     <Compile Include="Viev\Item\Item.xaml.cs">
       <DependentUpon>Item.xaml</DependentUpon>
     </Compile>
@@ -116,7 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
-    <Folder Include="Modell\" />
     <Folder Include="VievModell\" />
   </ItemGroup>
   <ItemGroup>
